@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del navbar */
+nav {
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.logoEstefaniaAreiza {
+    width: 200px;
+    height: 48px;
+}
+
+/* Estilos de la sección principal */
+main {
+    padding: 48px;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 48px;
+}
+
+section .titleSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos de las cards */
+
+.articles1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+.articles2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+/* Estilos sección get in touch */
+.contactBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Estilos del footer */
+footer {
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
